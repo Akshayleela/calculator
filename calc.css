@@ -1,0 +1,127 @@
+body{
+    font-size: 14px;
+    color: #333;
+    background-color: #00203F;
+}
+.title{
+    border-bottom-right-radius: 65px;
+    margin-bottom: 10px;
+    margin-left: -4%;
+    text-align: center;
+    width: 100%;
+    color:brown ;
+    font-size: xx-large;
+    box-shadow: 0px 0px 5px aliceblue;
+}
+.btn-primary{
+    color: #ff4456;
+}
+.btn-danger{
+     color: black;
+}
+.container{
+    height: 87%;
+    width: 30%;
+    margin-left:auto;
+    margin-top: 2%;
+    border: 2px solid rosybrown;
+    box-shadow: 0px 0px 20px lawngreen;
+}
+.function{
+    margin-top: 25%;
+    margin-left: 40%;
+}
+input[type="button"]
+{
+    border-radius: 10px;
+    background-color: black;
+   /* color: lawngreen;*/
+    border-color: #ff4456;
+    font-size: large;
+    font-style: oblique;
+    width: 16%;
+    height: 12%;
+    box-shadow: 4px 4px 3px white;
+}
+input[type="text"]
+{   height: 3em;
+    border-radius: 10px;
+    text-align: right;
+    background-color: antiquewhite;
+    border-color: black;
+    width: 140%;
+    margin-left: 15%;
+    margin-top: -193%;
+    font-weight: bolder;
+}
+p{
+    margin: -7px -115px 13px;
+}
+p>.btn-danger{
+    background-color: black;
+    color:greenyellow
+}
+p>.btn-info{
+    color: #00ebe0;
+}
+@media screen and (max-height: 540px){
+    input[type="text"]{
+        margin-top: -169%;
+    }
+}
+@media screen and (max-height: 400px){
+    input[type="text"]{
+        margin-top: -153%;
+    }
+    .function{
+        height: 83%;
+    }
+}
+@media screen and (max-width: 1000px){
+    input[type="text"]{
+        margin-top: -159%;
+        margin-left: -5%;
+        width: 140%;
+    }
+}
+@media screen and (max-width: 1209px){
+    input[type="text"]{
+        margin-top: -152%;
+        margin-left: 5%;
+        width: 117%;
+    }
+}
+@media screen and (max-width: 980px){
+    .container{
+        width:37%
+    }
+    input[type="text"]{
+        margin-top: -152%;
+        margin-left: -2%;
+        width:110%;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        width:46%
+    }
+    input[type="text"]{
+        margin-top: -152%;
+        margin-left: -2%;
+        width:110%;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        width:56%
+    }
+    input[type="text"]{
+        margin-top: -154%;
+        margin-left: -6%;
+    }
+    .function{
+        margin-top: 34%;
+        margin-left: 44%;
+    }
+    
+}

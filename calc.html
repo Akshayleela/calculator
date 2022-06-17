@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="calc.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="calc.js"></script>
+    </head>
+    <body>
+            <div class="container">
+            <div class="title">Calculator</div>
+            <table border="1">
+            
+         <!--   <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Calculator
+                </div>
+                <div class="panel-body">
+                 -<div class="form-group">
+                        <input class="form-control" id="first"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="second"/>
+                    </div>-->
+                    <tr>
+                    <td colspan="6"><input type="text" id="lak"/></td>
+                    </tr>
+                    <div class="function">
+                    <p>
+                    <input type="button" class="btn btn-primary" value="C" onclick="clr()"/>
+                    <input type="button" class="btn btn-info" value="+" onclick="dis('+')"/>
+                    <input type="button" class="btn btn-info" value="-" onclick="dis('-')"/>
+                    <input type="button" class="btn btn-info" value="*" onclick="dis('*')"/>
+                    </p>
+                    <p>
+                    <input type ="button" class="btn btn-danger" value="7" onclick="dis('7')"/>
+                    <input type="button" class="btn btn-danger" value="8" onclick="dis('8')"/>
+                    <input type="button" class="btn btn-danger" value="9" onclick="dis('9')"/>
+                    <input type="button" class="btn btn-info"   value="/"  onclick="dis('/')"/>
+                    </p>
+                    <p>
+                    <input type="button" class="btn btn-danger" value="4" onclick="dis('4')"/>               
+                    <input type="button" class="btn btn-danger" value="5" onclick="dis('5')"/>
+                    <input type="button" class="btn btn-danger" value="6" onclick="dis('6')"/>
+                    <input type="button" class="btn btn-info"   value="%" onclick="dis('%')"/>
+                    </p>
+                    <p>
+                    <input type="button" class="btn btn-danger" value="1" onclick="dis('1')"/>
+                    <input type="button" class="btn btn-danger" value="2" onclick="dis('2')"/>
+                    <input type="button" class="btn btn-danger" value="3" onclick="dis('3')"/>
+                    <input type="button" class="btn btn-info" value="=" onclick="solve()"/>    
+                    </p>
+                    <p>
+                    <input type="button" class="btn btn-danger" value="" onClick="dis()"/>
+                    <input type="button" class="btn btn-danger" value="0" onClick="dis('0')"/>
+                    <input type="button" class="btn btn-danger" value="." onClick="dis('.')"/>
+                    <input type="button" class="btn btn-info" onClick="calc()"/>
+                    </p>
+                </div>
+            </div>
+        </table> 
+    </body>
+</html>
